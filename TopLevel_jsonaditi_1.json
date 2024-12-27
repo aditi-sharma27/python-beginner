@@ -1,0 +1,1136 @@
+[
+    {
+        "package": "keycloak",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/keycloak-22.2.6.tar.gz",
+        "version": "22.2.6"
+    },
+	{
+        "package": "helm",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/helm-v3.12.0-linux-amd64.tar.gz",
+        "version": "v3.12.0"
+    },
+    {
+        "package": "docker.io/bitnami/keycloak",
+        "url": "docker.io/bitnami/keycloak:25.0.6-debian-12-r0",
+        "tag": "25.0.6-debian-12-r0",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/bitnami/os-shell",
+        "url": "docker.io/bitnami/os-shell:12-debian-12-r30",
+        "tag": "12-debian-12-r30",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/bitnami/postgresql",
+        "url": "docker.io/bitnami/postgresql:16.4.0-debian-12-r9",
+        "tag": "16.4.0-debian-12-r9",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/bitnami/keycloak-config-cli",
+        "url": "docker.io/bitnami/keycloak-config-cli:6.1.6-debian-12-r3",
+        "tag": "6.1.6-debian-12-r3",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/bitnami/postgres-exporter",
+        "url": "docker.io/bitnami/postgres-exporter:0.15.0-debian-12-r43",
+        "tag": "0.15.0-debian-12-r43",
+        "type": "image"
+    },
+    {
+        "package": "python",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/Python-3.11.9-built.tar.gz",
+        "version": "v3.11.9"
+    },
+    {
+        "package": "make",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/make-4.3-binary.tar.gz",
+        "version": "v4.3"
+    },
+    {
+        "package": "Meta-Llama-3-8B",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/Meta-Llama-Model-latest.tar.gz"
+    },
+    {
+        "package": "vllm-rocm",
+        "url": "100.96.54.68/vllm/vllm-rocm@sha256:6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
+        "digest": "6f3a2a8bd9a35c412bbf2eeda2a7bd3a9e1cd713f1ec26c870244ada1aca8c1c",
+        "type": "image",
+        "username": "admin",
+        "access_token": "Harbor12345"
+    },
+    {
+        "package": "alpine",
+        "url": "docker.io/alpine:latest",
+        "tag": "latest",
+        "type": "image"
+    },
+    {
+        "package": "kubeflow",
+        "type": "binary",
+        "url": "https://github.com/kubeflow/manifests/archive/refs/tags/v1.9.0.tar.gz",
+        "version": "v1.9.0"
+    },
+    {
+        "package": "kustomize_linux_amd64",
+        "type": "binary",
+        "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.4.3/kustomize_v5.4.3_linux_amd64.tar.gz",
+        "version": "v5.4.3"
+    },
+    {
+        "package": "ghcr.io/dexidp/dex",
+        "url": "ghcr.io/dexidp/dex:v2.39.1",
+        "tag": "v2.39.1",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:4ed3e39a11f4fc3358787433beaea4a9e72773ea7710bf4beb95aa8770515c9e",
+        "digest": "4ed3e39a11f4fc3358787433beaea4a9e72773ea7710bf4beb95aa8770515c9e",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/webhook",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:cd577cb977a2830b29bb799cf146bbffe0241d65eef1c680ec158af97b18d4fa",
+        "digest": "cd577cb977a2830b29bb799cf146bbffe0241d65eef1c680ec158af97b18d4fa",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/activator",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ad42ddc9bc4e25fdc88c240d7cbfad4b2708eb7d26e07ae904d258011141116e",
+        "digest": "ad42ddc9bc4e25fdc88c240d7cbfad4b2708eb7d26e07ae904d258011141116e",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:66aa0dbceee62691d5327e423bbd7cbd411903747adeab61fdc81b14590793d4",
+        "digest": "66aa0dbceee62691d5327e423bbd7cbd411903747adeab61fdc81b14590793d4",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/controller",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:e5b7b6edd265b66d32f424bd245c06455154462ade6ce05698472212248d5657",
+        "digest": "e5b7b6edd265b66d32f424bd245c06455154462ade6ce05698472212248d5657",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping@sha256:f66c41ad7a73f5d4f4bdfec4294d5459c477f09f3ce52934d1a215e32316b59b",
+        "digest": "f66c41ad7a73f5d4f4bdfec4294d5459c477f09f3ce52934d1a215e32316b59b",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook@sha256:7368aaddf2be8d8784dc7195f5bc272ecfe49d429697f48de0ddc44f278167aa",
+        "digest": "7368aaddf2be8d8784dc7195f5bc272ecfe49d429697f48de0ddc44f278167aa",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/net-istio/cmd/controller",
+        "url": "gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:5782b4a6b1a106d7cafe77d044b30905a9fecbbd2e0029946cb8a4b3507b40a4",
+        "digest": "5782b4a6b1a106d7cafe77d044b30905a9fecbbd2e0029946cb8a4b3507b40a4",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook",
+        "url": "gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:eeff0ad31550f3ff519d988bb36bfe214e5b60c1ec4349c1f9bb2b2d8cad9479",
+        "digest": "eeff0ad31550f3ff519d988bb36bfe214e5b60c1ec4349c1f9bb2b2d8cad9479",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/webhook",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:48aee2733721ecc77956abc5a2ca072853a669ebc97519beb48f7b3da8455e67",
+        "digest": "48aee2733721ecc77956abc5a2ca072853a669ebc97519beb48f7b3da8455e67",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate",
+        "url": "gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate@sha256:232d6ffd88dfc0d0ec02c6f3a95520283d076c16b77543cee04f4ef276e0b7ae",
+        "digest": "232d6ffd88dfc0d0ec02c6f3a95520283d076c16b77543cee04f4ef276e0b7ae",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/serving/cmd/queue",
+        "url": "gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:89e6f90141f1b63405883fbb4de0d3b6d80f8b77e530904c4d29bdcd1dc5a167",
+        "digest": "89e6f90141f1b63405883fbb4de0d3b6d80f8b77e530904c4d29bdcd1dc5a167",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/net-istio/cmd/controller",
+        "url": "gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:5782b4a6b1a106d7cafe77d044b30905a9fecbbd2e0029946cb8a4b3507b40a4",
+        "digest": "5782b4a6b1a106d7cafe77d044b30905a9fecbbd2e0029946cb8a4b3507b40a4",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate",
+        "url": "gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate@sha256:d438c3ad2fcef3c7ea1b3abb910f5fa911c8a1466d6460ac0b11bf034797d6f6",
+        "digest": "d438c3ad2fcef3c7ea1b3abb910f5fa911c8a1466d6460ac0b11bf034797d6f6",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker@sha256:9dc9e0b00325f1ec994ef6f48761ba7d9217333fa0c2cbfccfa9b204e3f616a9",
+        "digest": "9dc9e0b00325f1ec994ef6f48761ba7d9217333fa0c2cbfccfa9b204e3f616a9",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:65412cf797d0bb7c7e22454431f57f8d9dcedf93620769f4c1206947acf05abb",
+        "digest": "65412cf797d0bb7c7e22454431f57f8d9dcedf93620769f4c1206947acf05abb",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:4e3cf0703024129c60b66529f41a1d29310f61f6aced24d25fd241e43b1a2e8e",
+        "digest": "4e3cf0703024129c60b66529f41a1d29310f61f6aced24d25fd241e43b1a2e8e",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher",
+        "digest": "fa64db1ad126874f4e5ce1c17c2414b0fc3dde2a7e0db6fde939cafdbd4d96cd",
+        "type": "image",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:fa64db1ad126874f4e5ce1c17c2414b0fc3dde2a7e0db6fde939cafdbd4d96cd"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller",
+        "digest": "5386029f1fdcce1398dcca436864051a2f7eb5abed176453104f41b7b9b587f9",
+        "type": "image",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:5386029f1fdcce1398dcca436864051a2f7eb5abed176453104f41b7b9b587f9"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/webhook",
+        "digest": "cd577cb977a2830b29bb799cf146bbffe0241d65eef1c680ec158af97b18d4fa",
+        "type": "image",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/webhook@sha256:cd577cb977a2830b29bb799cf146bbffe0241d65eef1c680ec158af97b18d4fa"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/mtping",
+        "digest": "9d74e8c69d671ad10fdfd84d33569fde5c16c9f95824ea288d2cb6fd69e32f4d",
+        "type": "image",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/mtping@sha256:9d74e8c69d671ad10fdfd84d33569fde5c16c9f95824ea288d2cb6fd69e32f4d"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/controller",
+        "digest": "7579c5a8b1dee07c382120a8bc1a6594aea4519d0cf652989f5d9a675b11a0de",
+        "type": "image",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:7579c5a8b1dee07c382120a8bc1a6594aea4519d0cf652989f5d9a675b11a0de"
+    },
+    {
+        "package": "quay.io/jetstack/cert-manager-controller",
+        "tag": "v1.14.5",
+        "type": "image",
+        "url": "quay.io/jetstack/cert-manager-controller:v1.14.5"
+    },
+    {
+        "package": "quay.io/jetstack/cert-manager-cainjector",
+        "tag": "v1.14.5",
+        "type": "image",
+        "url": "quay.io/jetstack/cert-manager-cainjector:v1.14.5"
+    },
+    {
+        "package": "quay.io/jetstack/cert-manager-webhook",
+        "tag": "v1.14.5",
+        "type": "image",
+        "url": "quay.io/jetstack/cert-manager-webhook:v1.14.5"
+    },
+    {
+        "package": "docker.io/curlimages/curl",
+        "type": "image",
+        "url": "docker.io/curlimages/curl:latest"
+    },
+    {
+        "package": "docker.io/istio/proxyv2",
+        "tag": "1.22.1",
+        "type": "image",
+        "url": "docker.io/istio/proxyv2:1.22.1"
+    },
+    {
+        "package": "docker.io/istio/proxyv2",
+        "tag": "1.17.5",
+        "type": "image",
+        "url": "docker.io/istio/proxyv2:1.17.5"
+    },
+    {
+        "package": "docker.io/istio/pilot",
+        "tag": "1.22.1",
+        "type": "image",
+        "url": "docker.io/istio/pilot:1.22.1"
+    },
+    {
+        "package": "docker.io/kubeflowmanifestswg/oidc-authservice",
+        "url": "docker.io/kubeflowmanifestswg/oidc-authservice:e236439",
+        "tag": "e236439",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/knative-releases/knative.dev/eventing/cmd/controller",
+        "url": "gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:7579c5a8b1dee07c382120a8bc1a6594aea4519d0cf652989f5d9a675b11a0de",
+        "digest": "7579c5a8b1dee07c382120a8bc1a6594aea4519d0cf652989f5d9a675b11a0de",
+        "type": "image"
+    },
+    {
+        "package": "gcr.io/kubeflow-ci/tf-mnist-with-summaries",
+        "tag": "1.0",
+        "type": "image",
+        "url": "gcr.io/kubeflow-ci/tf-mnist-with-summaries:1.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/pytorch-mnist-cpu",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/pytorch-mnist-cpu:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/jupyter-scipy",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/jupyter-scipy:v1.9.0"
+    },
+    {
+        "package": "docker.io/busybox",
+        "tag": "latest",
+        "type": "image",
+        "url": "docker.io/busybox:latest"
+    },
+    {
+        "package": "gcr.io/kubeflow-images-public/profile-controller",
+        "tag": "v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773",
+        "type": "image",
+        "url": "gcr.io/kubeflow-images-public/profile-controller:v20190228-v0.4.0-rc.1-192-g1a802656-dirty-f95773"
+    },
+    {
+        "package": "docker.io/seldonio/seldon-core-operator",
+        "tag": "1.18.1",
+        "type": "image",
+        "url": "docker.io/seldonio/seldon-core-operator:1.18.1"
+    },
+    {
+        "package": "docker.io/seldonio/echo-model",
+        "tag": "1.17.1",
+        "type": "image",
+        "url": "docker.io/seldonio/echo-model:1.17.1"
+    },
+    {
+        "package": "docker.io/rayproject/ray",
+        "tag": "2.23.0-py311-cpu",
+        "type": "image",
+        "url": "docker.io/rayproject/ray:2.23.0-py311-cpu"
+    },
+    {
+        "package": "gcr.io/kubebuilder/kube-rbac-proxy",
+        "tag": "v0.13.1",
+        "type": "image",
+        "url": "gcr.io/kubebuilder/kube-rbac-proxy:v0.13.1"
+    },
+    {
+        "package": "docker.io/kserve/kserve-controller",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/kserve-controller:v0.13.0"
+    },
+    {
+        "package": "docker.io/kserve/xgbserver",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/xgbserver:v0.13.0"
+    },
+    {
+        "package": "nvcr.io/nvidia/tritonserver",
+        "tag": "23.05-py3",
+        "type": "image",
+        "url": "nvcr.io/nvidia/tritonserver:23.05-py3"
+    },
+    {
+        "package": "docker.io/pytorch/torchserve-kfs",
+        "tag": "0.9.0",
+        "type": "image",
+        "url": "docker.io/pytorch/torchserve-kfs:0.9.0"
+    },
+    {
+        "package": "docker.io/tensorflow/serving",
+        "tag": "2.6.2",
+        "type": "image",
+        "url": "docker.io/tensorflow/serving:2.6.2"
+    },
+    {
+        "package": "docker.io/kserve/sklearnserver",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/sklearnserver:v0.13.0"
+    },
+    {
+        "package": "docker.io/kserve/pmmlserver",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/pmmlserver:v0.13.0"
+    },
+    {
+        "package": "docker.io/kserve/paddleserver",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/paddleserver:v0.13.0"
+    },
+    {
+        "package": "docker.io/seldonio/mlserver",
+        "tag": "1.3.2",
+        "type": "image",
+        "url": "docker.io/seldonio/mlserver:1.3.2"
+    },
+    {
+        "package": "docker.io/kserve/lgbserver",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/lgbserver:v0.13.0"
+    },
+    {
+        "package": "docker.io/bentoml/fraud_detection",
+        "tag": "o5smnagbncigycvj",
+        "type": "image",
+        "url": "docker.io/bentoml/fraud_detection:o5smnagbncigycvj"
+    },
+    {
+        "package": "quay.io/bentoml/yatai-image-builder",
+        "tag": "1.2.28",
+        "type": "image",
+        "url": "quay.io/bentoml/yatai-image-builder:1.2.28"
+    },
+    {
+        "package": "quay.io/oauth2-proxy/oauth2-proxy",
+        "tag": "latest",
+        "type": "image",
+        "url": "quay.io/oauth2-proxy/oauth2-proxy:latest"
+    },
+    {
+        "package": "quay.io/oauth2-proxy/oauth2-proxy",
+        "tag": "v7.6.0",
+        "type": "image",
+        "url": "quay.io/oauth2-proxy/oauth2-proxy:v7.6.0"
+    },
+    {
+        "package": "docker.io/prom/prometheus",
+        "tag": "latest",
+        "type": "image",
+        "url": "docker.io/prom/prometheus:latest"
+    },
+    {
+        "package": "docker.io/grafana/grafana",
+        "tag": "5.3.4",
+        "type": "image",
+        "url": "docker.io/grafana/grafana:5.3.4"
+    },
+    {
+        "package": "quay.io/dexidp/dex",
+        "tag": "v2.23.0",
+        "type": "image",
+        "url": "quay.io/dexidp/dex:v2.23.0"
+    },
+    {
+        "package": "docker.io/mysql",
+        "tag": "8",
+        "type": "image",
+        "url": "docker.io/mysql:8"
+    },
+    {
+        "package": "quay.io/argoproj/workflow-controller",
+        "tag": "latest",
+        "type": "image",
+        "url": "quay.io/argoproj/workflow-controller:latest"
+    },
+    {
+        "package": "docker.io/postgres",
+        "tag": "14.5-alpine",
+        "type": "image",
+        "url": "docker.io/postgres:14.5-alpine"
+    },
+    {
+        "package": "quay.io/argoproj/argocli",
+        "tag": "latest",
+        "type": "image",
+        "url": "quay.io/argoproj/argocli:latest"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/application-crd-controller",
+        "tag": "20231101",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/application-crd-controller:20231101"
+    },
+    {
+        "package": "gcr.io/cloudsql-docker/gce-proxy",
+        "tag": "1.25.0",
+        "type": "image",
+        "url": "gcr.io/cloudsql-docker/gce-proxy:1.25.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/minio",
+        "tag": "RELEASE.2019-08-14T20-37-41Z-license-compliance",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/minio:RELEASE.2019-08-14T20-37-41Z-license-compliance"
+    },
+    {
+        "package": "docker.io/mysql",
+        "tag": "8.0.3",
+        "type": "image",
+        "url": "docker.io/mysql:8.0.3"
+    },
+    {
+        "package": "gcr.io/tfx-oss-public/ml_metadata_store_server",
+        "tag": "1.5.0",
+        "type": "image",
+        "url": "gcr.io/tfx-oss-public/ml_metadata_store_server:1.5.0"
+    },
+    {
+        "package": "gcr.io/kubeflow-images-public/kubebench/workflow-agent",
+        "tag": "bc682c1",
+        "type": "image",
+        "url": "gcr.io/kubeflow-images-public/kubebench/workflow-agent:bc682c1"
+    },
+    {
+        "package": "quay.io/aipipeline/pipelineloop-webhook",
+        "tag": "1.9.2",
+        "type": "image",
+        "url": "quay.io/aipipeline/pipelineloop-webhook:1.9.2"
+    },
+    {
+        "package": "gcr.io/kubebuilder/kube-rbac-proxy",
+        "tag": "v0.11.0",
+        "type": "image",
+        "url": "gcr.io/kubebuilder/kube-rbac-proxy:v0.11.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/mxnet-mnist",
+        "tag": "v0.16.0-rc.1",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/mxnet-mnist:v0.16.0-rc.1"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/enas-cnn-cifar10-cpu",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/enas-cnn-cifar10-cpu:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/pytorch-mnist-cpu",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/pytorch-mnist-cpu:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/file-metrics-collector",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/file-metrics-collector:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/tfevent-metrics-collector",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/tfevent-metrics-collector:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-hyperopt",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-hyperopt:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-optuna",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-optuna:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-hyperband",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-hyperband:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-skopt",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-skopt:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-goptuna",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-goptuna:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-optuna",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-optuna:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-enas",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-enas:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-darts",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-darts:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/suggestion-pbt",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/suggestion-pbt:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/earlystopping-medianstop",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/earlystopping-medianstop:v0.17.0"
+    },
+    {
+        "package": "docker.io/kserve/kserve-controller",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/kserve-controller:v0.13.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/frontend",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/frontend:2.2.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/visualization-server",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/visualization-server:2.2.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/poddefaults-webhook",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/poddefaults-webhook:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/poddefaults-webhook",
+        "tag": "v1.8.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/poddefaults-webhook:v1.8.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/cache-server",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/cache-server:2.2.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/centraldashboard",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/centraldashboard:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/jupyter-web-app",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/jupyter-web-app:v1.9.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/mysql",
+        "tag": "8.0.26",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/mysql:8.0.26"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/katib-controller",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/katib-controller:v0.17.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/katib-controller",
+        "tag": "v0.16.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/katib-controller:v0.16.0"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/katib-db-manager",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/katib-db-manager:v0.17.0"
+    },
+    {
+        "package": "docker.io/mysql:8.0.29",
+        "tag": "8.0.29",
+        "type": "image",
+        "url": "docker.io/mysql:8.0.29"
+    },
+    {
+        "package": "docker.io/kubeflowkatib/katib-ui",
+        "tag": "v0.17.0",
+        "type": "image",
+        "url": "docker.io/kubeflowkatib/katib-ui:v0.17.0"
+    },
+    {
+        "package": "docker.io/kserve/kserve-controller",
+        "tag": "v0.13.0",
+        "type": "image",
+        "url": "docker.io/kserve/kserve-controller:v0.13.0"
+    },
+    {
+        "package": "docker.io/kserve/models-web-app",
+        "tag": "v0.13.0-rc.0",
+        "type": "image",
+        "url": "docker.io/kserve/models-web-app:v0.13.0-rc.0"
+    },
+    {
+        "package": "docker.io/kserve/models-web-app",
+        "tag": "latest",
+        "type": "image",
+        "url": "docker.io/kserve/models-web-app:latest"
+    },
+    {
+        "package": "docker.io/python",
+        "tag": "3.7",
+        "type": "image",
+        "url": "docker.io/python:3.7"
+    },
+    {
+        "package": "docker.io/metacontrollerio/metacontroller",
+        "tag": "v2.0.4",
+        "type": "image",
+        "url": "docker.io/metacontrollerio/metacontroller:v2.0.4"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/metadata-envoy",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/metadata-envoy:2.2.0"
+    },
+    {
+        "package": "gcr.io/tfx-oss-public/ml_metadata_store_server",
+        "tag": "1.14.0",
+        "type": "image",
+        "url": "gcr.io/tfx-oss-public/ml_metadata_store_server:1.14.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/metadata-writer",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/metadata-writer:2.2.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/minio",
+        "tag": "RELEASE.2019-08-14T20-37-41Z-license-compliance",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/minio:RELEASE.2019-08-14T20-37-41Z-license-compliance"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/api-server",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/api-server:2.2.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/persistenceagent",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/persistenceagent:2.2.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/scheduledworkflow",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/scheduledworkflow:2.2.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/tensorboard-controller",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/tensorboard-controller:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/tensorboards-web-app",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/tensorboards-web-app:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflow/training-operator",
+        "tag": "v1-9e52eb7",
+        "type": "image",
+        "url": "docker.io/kubeflow/training-operator:v1-9e52eb7"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/notebook-controller",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/notebook-controller:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/kfam",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/kfam:v1.9.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/profile-controller",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/profile-controller:v1.9.0"
+    },
+    {
+        "package": "gcr.io/kubebuilder/kube-rbac-proxy",
+        "tag": "v0.4.0",
+        "type": "image",
+        "url": "gcr.io/kubebuilder/kube-rbac-proxy:v0.4.0"
+    },
+    {
+        "package": "gcr.io/kubebuilder/kube-rbac-proxy",
+        "tag": "v0.8.0",
+        "type": "image",
+        "url": "gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/tensorboards-web-app",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/tensorboards-web-app:v1.9.0"
+    },
+    {
+        "package": "docker.io/mariadb",
+        "tag": "latest",
+        "type": "image",
+        "url": "docker.io/mariadb:latest"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/pvcviewer-controller",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/pvcviewer-controller:v1.9.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/workflow-controller",
+        "tag": "v3.3.10-license-compliance",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/workflow-controller:v3.3.10-license-compliance"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/workflow-controller",
+        "tag": "v3.4.16-license-compliance",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/workflow-controller:v3.4.16-license-compliance"
+    },
+    {
+        "package": "docker.io/kubeflownotebookswg/volumes-web-app",
+        "tag": "v1.9.0",
+        "type": "image",
+        "url": "docker.io/kubeflownotebookswg/volumes-web-app:v1.9.0"
+    },
+    {
+        "package": "gcr.io/ml-pipeline/viewer-crd-controller",
+        "tag": "2.2.0",
+        "type": "image",
+        "url": "gcr.io/ml-pipeline/viewer-crd-controller:2.2.0"
+    },
+    {
+        "package": "dsp_nic_drivers",
+        "url": "http://100.98.248.30/repository/c7e2ad26-a1db-45d9-9cef-4867f25b9897/default/01741714-4e89-43c0-aac4-f732f3eb3cd0/5.15.0-122-generic/dsp_nic_drivers.tar",
+        "type": "binary",
+        "version": "5.15.0-122-generic"
+    },
+    {
+        "package": "dsp_roce_libraries",
+        "url": "http://100.98.248.30/repository/7e6163bd-f9fb-4bae-a29f-3d6d2acc1aee/default/8d787c10-1df0-4af2-b4a7-cf12fbb940d1/229.2.61.0/Bcom_LAN_229.2.61.0_NXE_Linux_Source_229.2.61.0.tar.gz",
+        "type": "binary",
+        "version": "229.2.61.0"
+    },
+    {
+        "package": "dsp_ubuntu_packages",
+        "url": "http://100.98.248.30/repository/99ac4bce-22f8-4974-8780-91ecc257057a/default/8dd4c98d-aed4-42ce-b934-75947fcd79df/22.04.4/ubuntu-22.04.4-server-min.tar.gz",
+        "type": "binary",
+        "version": "22.04.4"
+    },
+    {
+        "package": "rocepod",
+        "type": "image",
+        "url": "docker.io/roman8rcm/roce-test:229.2.32.0",
+        "tag": "229.2.32.0"
+    },
+    {
+        "package": "whereabouts",
+        "type": "image",
+        "url": "ghcr.io/k8snetworkplumbingwg/whereabouts:v0.8.0",
+        "tag": "v0.8.0"
+    },
+    {
+        "package": "multus-cni",
+        "type": "image",
+        "url": "ghcr.io/k8snetworkplumbingwg/multus-cni:v4.1.3",
+        "tag": "v4.1.3"
+    },
+    {
+        "package": "k8s-rdma-shared-dev-plugin",
+        "type": "image",
+        "url": "ghcr.io/mellanox/k8s-rdma-shared-dev-plugin:v1.5.1",
+        "tag": "v1.5.1"
+    },
+    {
+        "package": "dsp_gpu_drivers",
+        "url": "http://100.98.248.30/repository/56662f11-25f6-48f3-a246-011c4107e3fc/default/590617ab-979d-4e20-a545-574432cbe86f/5.15.0-122-generic/dsp_gpu_drivers.tar",
+        "version": "5.15.0-122-generic",
+        "type": "binary"
+    },
+    {
+        "package": "rocm_installator",
+        "url": "http://100.98.248.30/repository/b4f72b31-9b9a-462f-8db0-e287ad6ef91d/default/8e22b4b8-6327-45c0-9b8a-07c5a411a649/6.0.0/rocm-installator.run",
+        "version": "6.0.0",
+        "type": "binary"
+    },
+    {
+        "package": "dsp_firmware-packages",
+        "type": "binary",
+        "url": "http://100.96.54.68:9000/mybucket/dsp_firmware-packages.tar.gz",
+        "version": "1.0.0"
+    },
+    {
+        "package": "rocm_plugin",
+        "type": "image",
+        "url": "docker.io/rocm/k8s-device-plugin:1.31.0.0",
+        "tag": "1.31.0.0"
+    },
+    {
+        "package": "ubuntu_os_image",
+        "type": "binary",
+        "url": "https://old-releases.ubuntu.com/releases/jammy/ubuntu-22.04.4-live-server-amd64.iso",
+        "version": "22.04"
+    },
+    {
+        "package": "ece-agent-0.5.0.0-b9acba4a-26_amd64.deb",
+        "type": "binary",
+        "url": "uploaded",
+        "version": "0.5.0.0"
+    },
+    {
+        "package": "containerd",
+        "type": "binary",
+        "url": "https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/containerd.io_1.7.20-1_amd64.deb",
+        "version": "1.7.20"
+    },
+    {
+        "package": "crictl",
+        "type": "binary",
+        "url": "https://github.com/kubernetes-sigs/cri-tools/releases/download/v1.29.0/crictl-v1.29.0-linux-amd64.tar.gz",
+        "version": "v1.29.0"
+    },
+    {
+        "package": "cni-plugins",
+        "type": "binary",
+        "url": "https://github.com/containernetworking/plugins/releases/download/v1.3.0/cni-plugins-linux-amd64-v1.3.0.tgz",
+        "version": "v1.3.0"
+    },
+    {
+        "package": "docker-buildx-plugin",
+        "type": "binary",
+        "url": "https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-buildx-plugin_0.16.2-1~ubuntu.22.04~jammy_amd64.deb",
+        "version": "0.16.2"
+    },
+    {
+        "package": "docker-ce",
+        "type": "binary",
+        "url": "https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce_27.1.2-1~ubuntu.22.04~jammy_amd64.deb",
+        "version": "27.1.2"
+    },
+    {
+        "package": "docker-ce-cli",
+        "type": "binary",
+        "url": "https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_27.1.1-1~ubuntu.22.04~jammy_amd64.deb",
+        "version": "27.1.2"
+    },
+    {
+        "package": "docker-compose-plugin",
+        "type": "binary",
+        "url": "https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-compose-plugin_2.29.1-1~ubuntu.22.04~jammy_amd64.deb",
+        "version": "2.29.1"
+    },
+    {
+        "package": "kubeadm",
+        "type": "binary",
+        "url": "https://dl.k8s.io/release/v1.29.8/bin/linux/amd64/kubeadm",
+        "version": "v1.29.8"
+    },
+    {
+        "package": "kubectl",
+        "type": "binary",
+        "url": "https://dl.k8s.io/release/v1.29.8/bin/linux/amd64/kubectl",
+        "version": "v1.29.8"
+    },
+    {
+        "package": "kubelet",
+        "type": "binary",
+        "url": "https://dl.k8s.io/release/v1.29.8/bin/linux/amd64/kubelet",
+        "version": "v1.29.8"
+    },
+    {
+        "package": "kubelet-service",
+        "type": "binary",
+        "url": "https://raw.githubusercontent.com/kubernetes/release/v0.16.2/cmd/krel/templates/latest/kubelet/kubelet.service",
+        "version": "v0.16.2"
+    },
+    {
+        "package": "kubeadm-conf",
+        "type": "binary",
+        "url": "https://raw.githubusercontent.com/kubernetes/release/v0.16.2/cmd/krel/templates/latest/kubeadm/10-kubeadm.conf",
+        "version": "v0.16.2"
+    },
+    {
+        "package": "conntrack",
+        "type": "binary",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/c/conntrack-tools/conntrack_1.4.6-2build2_amd64.deb",
+        "version": "1.4.6"
+    },
+    {
+        "package": "kube-apiserver",
+        "type": "image",
+        "url": "registry.k8s.io/kube-apiserver:v1.29.8",
+        "tag": "v1.29.8"
+    },
+    {
+        "package": "kube-controller-manager",
+        "type": "image",
+        "url": "registry.k8s.io/kube-controller-manager:v1.29.8",
+        "tag": "v1.29.8"
+    },
+    {
+        "package": "kube-scheduler",
+        "type": "image",
+        "url": "registry.k8s.io/kube-scheduler:v1.29.8",
+        "tag": "v1.29.8"
+    },
+    {
+        "package": "kube-proxy",
+        "type": "image",
+        "url": "registry.k8s.io/kube-proxy:v1.29.8",
+        "tag": "v1.29.8"
+    },
+    {
+        "package": "coredns",
+        "type": "image",
+        "url": "registry.k8s.io/coredns/coredns:v1.11.1",
+        "tag": "v1.11.1"
+    },
+    {
+        "package": "pause",
+        "type": "image",
+        "url": "registry.k8s.io/pause:3.9",
+        "tag": "3.9"
+    },
+    {
+        "package": "etcd",
+        "type": "image",
+        "url": "registry.k8s.io/etcd:3.5.12-0",
+        "tag": "3.5.12-0"
+    },
+    {
+        "package": "kube-vip",
+        "type": "image",
+        "url": "ghcr.io/kube-vip/kube-vip:v0.8.2",
+        "tag": "v0.8.2"
+    },
+    {
+        "package": "flannel-cni-plugin",
+        "type": "image",
+        "url": "docker.io/flannel/flannel-cni-plugin:v1.1.2",
+        "tag": "v1.1.2"
+    },
+    {
+        "package": "flannel",
+        "type": "image",
+        "url": "docker.io/flannel/flannel:v0.22.0",
+        "tag": "v0.22.0"
+    },
+    {
+        "package": "nfs-subdir-external-provisioner",
+        "type": "binary",
+        "url": "https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner/releases/download/nfs-subdir-external-provisioner-4.0.18/nfs-subdir-external-provisioner-4.0.18.tgz",
+        "version": "4.0.18"
+    },
+    {
+        "package": "nfs-subdir-external-provisioner-image",
+        "type": "image",
+        "url": "registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2",
+        "tag": "v4.0.2"
+    },
+    {
+        "package": "helm_binary",
+        "type": "binary",
+        "url": "https://get.helm.sh/helm-v3.15.4-linux-amd64.tar.gz",
+        "version": "v3.15.4"
+    },
+    {
+        "package": "keyutils",
+        "type": "binary",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/k/keyutils/keyutils_1.6.1-2ubuntu3_amd64.deb",
+        "version": "1.6.1"
+    },
+    {
+        "package": "libnfsidmap1",
+        "type": "binary",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/n/nfs-utils/libnfsidmap1_2.6.1-1ubuntu1.2_amd64.deb",
+        "version": "2.6.1"
+    },
+    {
+        "package": "nfs-common",
+        "type": "binary",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/n/nfs-utils/nfs-common_2.6.1-1ubuntu1.2_amd64.deb",
+        "version": "2.6.1"
+    },
+    {
+        "package": "rpcbind",
+        "type": "binary",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/pool/main/r/rpcbind/rpcbind_1.2.6-2build1_amd64.deb",
+        "version": "1.2.6"
+    },
+    {
+        "package": "istio_base_chart",
+        "type": "binary",
+        "url": "https://istio-release.storage.googleapis.com/charts/base-1.23.1.tgz",
+        "version": "1.23.1"
+    },
+    {
+        "package": "istio_istiod_chart",
+        "type": "binary",
+        "url": "https://istio-release.storage.googleapis.com/charts/istiod-1.23.1.tgz",
+        "version": "1.23.1"
+    },
+    {
+        "package": "istio_gateway_chart",
+        "type": "binary",
+        "url": "https://istio-release.storage.googleapis.com/charts/gateway-1.23.1.tgz",
+        "version": "1.23.1"
+    },
+    {
+        "package": "istio_pilot_image",
+        "type": "image",
+        "url": "docker.io/istio/pilot:1.23.1",
+        "tag": "1.23.1"
+    },
+    {
+        "package": "istio_proxyv2_image",
+        "type": "image",
+        "url": "docker.io/istio/proxyv2:1.23.1",
+        "tag": "1.23.1"
+    },
+    {
+        "package": "alpine/curl",
+        "url": "docker.io/alpine/curl:latest",
+        "tag": "latest",
+        "type": "image"
+      }
+]
