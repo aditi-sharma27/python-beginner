@@ -13,7 +13,7 @@
     },
     {
         "package": "docker.io/rocm/vllm",
-        "url": "docker.io/rocm/vllm",
+        "url": "docker.io/rocm/vllm:rocm6.2_mi300_ubuntu20.04_py3.9_vllm_0.6.4",
         "tag": "rocm6.2_mi300_ubuntu20.04_py3.9_vllm_0.6.4",
         "type": "image"
     },
