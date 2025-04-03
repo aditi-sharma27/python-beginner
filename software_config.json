@@ -1,0 +1,218 @@
+[
+    {
+        "package": "docker.io/alpine",
+        "url": "docker.io/alpine:3.21",
+        "tag": "3.21",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/vllm/vllm-openai",
+        "url": "docker.io/vllm/vllm-openai:latest",
+        "tag": "latest",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/rocm/vllm",
+        "url": "docker.io/rocm/vllm",
+        "tag": "rocm6.2_mi300_ubuntu20.04_py3.9_vllm_0.6.4",
+        "type": "image"
+    },
+    {
+        "package": "docker.io/alpine/curl",
+        "url": "docker.io/alpine/curl:8.12.1",
+        "tag": "8.12.1",
+        "type": "image"
+    },
+    {
+        "package": "bitnami/kubectl",
+        "url": "bitnami/kubectl:latest",
+        "tag": "latest",
+        "type": "image"
+    },
+    {
+        "package": "ghcr.io/open-webui/open-webui",
+        "url": "ghcr.io/open-webui/open-webui:0.5.12",
+        "tag": "0.5.12",
+        "type": "image"
+    },
+    {
+        "package": "ghcr.io/open-webui/pipelines",
+        "url": "ghcr.io/open-webui/pipelines:main",
+        "tag": "main",
+        "type": "image"
+    },
+    {
+        "package": "https://get.helm.sh/helm-v3.14.3-linux-amd64.tar.gz",
+        "url": "https://get.helm.sh/helm-v3.14.3-linux-amd64.tar.gz",
+        "tag": "v3.14.3",
+        "type": "binary"
+    },
+    {
+        "package": "https://helm.ngc.nvidia.com/nim/charts/nim-llm-1.3.0.tgz",
+        "url": "https://helm.ngc.nvidia.com/nim/charts/nim-llm-1.3.0.tgz",
+        "tag": "1.3.0",
+        "type": "binary"
+    },
+    {
+        "package": "nvcr.io/nim/meta/llama-3.1-8b-instruct",
+        "url": "nvcr.io/nim/meta/llama-3.1-8b-instruct:1.2.2",
+        "tag": "1.2.2",
+        "type": "image"
+    },
+    {
+        "package": "https://helm.ngc.nvidia.com/nim/nvidia/charts/nvidia-nim-llama-32-nv-embedqa-1b-v2-1.3.0.tgz",
+        "url": "https://helm.ngc.nvidia.com/nim/nvidia/charts/nvidia-nim-llama-32-nv-embedqa-1b-v2-1.3.0.tgz",
+        "tag": "1.3.0",
+        "type": "binary"
+    },
+    {
+        "package": "nvcr.io/nim/nvidia/llama-3.2-nv-embedqa-1b-v2",
+        "url": "nvcr.io/nim/nvidia/llama-3.2-nv-embedqa-1b-v2:1.3.0",
+        "tag": "1.3.0",
+        "type": "image"
+    },
+    {
+        "package": "https://helm.ngc.nvidia.com/nim/nvidia/charts/text-reranking-nim-1.3.0.tgz",
+        "url": "https://helm.ngc.nvidia.com/nim/nvidia/charts/text-reranking-nim-1.3.0.tgz",
+        "tag": "1.3.0",
+        "type": "binary"
+    },
+    {
+        "package": "nvcr.io/nim/nvidia/llama-3.2-nv-rerankqa-1b-v2",
+        "url": "nvcr.io/nim/nvidia/llama-3.2-nv-rerankqa-1b-v2:1.3.0",
+        "tag": "1.3.0",
+        "type": "image"
+    },
+    {
+        "package": "https://helm.openwebui.com/open-webui-5.12.0.tgz",
+        "url": "https://helm.openwebui.com/open-webui-5.12.0.tgz",
+        "tag": "5.12.0",
+        "type": "binary"
+    },
+    {
+        "package": "kubectl",
+        "type": "binary",
+        "url": "https://dl.k8s.io/release/v1.29.8/bin/linux/amd64/kubectl",
+        "version": "v1.29.8"
+    },
+    {
+        "package": "crds",
+        "type": "binary",
+        "url": "https://download.elastic.co/downloads/eck/2.16.0/crds.yaml",
+        "version": "2.16.0"
+    },
+    {
+        "package": "operator",
+        "type": "binary",
+        "url": "https://download.elastic.co/downloads/eck/2.16.0/operator.yaml",
+        "version": "2.16.0"
+    },
+    {
+        "package": "pydantic_core",
+        "type": "binary",
+        "url": " https://files.pythonhosted.org/packages/d6/4b/51141c5ea1874e7204efac93899eefcb690ff6772a92c9a6521b32e5b71f/pydantic_core-2.18.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "v2.18.4"
+    },
+    {
+        "package": "pydantic",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/17/ba/1b65c9cbc49e0c7cd1be086c63209e9ad883c2a409be4746c21db4263f41/pydantic-2.7.4-py3-none-any.whl",
+        "version": "v2.7.4"
+    },
+    {
+        "package": "numpy",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "v1.26.4"
+    },
+    {
+        "package": "jsonpointer",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/71/92/5e77f98553e9e75130c78900d000368476aed74276eb8ae8796f65f00918/jsonpointer-3.0.0-py2.py3-none-any.whl",
+        "version": "v3.0.0"
+    },
+    {
+        "package": "requests_toolbelt",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl",
+        "version": "v1.0.0"
+    },
+    {
+        "package": "jsonpatch",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/73/07/02e16ed01e04a374e644b575638ec7987ae846d25ad97bcc9945a3ee4b0e/jsonpatch-1.33-py2.py3-none-any.whl",
+        "version": "v1.33"
+    },
+    {
+        "package": "langsmith",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/de/f0/63b06b99b730b9954f8709f6f7d9b8d076fa0a973e472efe278089bde42b/langsmith-0.1.147-py3-none-any.whl",
+        "version": "v0.1.147"
+    },
+    {
+        "package": "langchain_core",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/b6/8b/c41dbe55a502b71d84734be75c40d5a62fd6024dd8417c9ca2417e308782/langchain_core-0.3.45-py3-none-any.whl",
+        "version": "v0.3.45"
+    },
+    {
+        "package": "langchain_text_splitters",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/4c/f8/6b82af988e65af9697f6a2f25373fb173fd32d48b62772a8773c5184c870/langchain_text_splitters-0.3.6-py3-none-any.whl",
+        "version": "v0.3.6"
+    },
+    {
+        "package": "langchain",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/92/82/c17abaa44074ec716409305da4783f633b0eb9b09bb28ed5005220269bdb/langchain-0.3.3-py3-none-any.whl",
+        "version": "v0.3.3"
+    },
+    {
+        "package": "pydantic_settings",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/0b/53/a64f03044927dc47aafe029c42a5b7aabc38dfb813475e0e1bf71c4a59d0/pydantic_settings-2.8.1-py3-none-any.whl",
+        "version": "v2.8.1"
+    },
+    {
+        "package": "langchain_community",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/cc/57/a8b4826eaa29d3663c957251ab32275a0c178bdb0e262a1204ed820f430c/langchain_community-0.3.2-py3-none-any.whl",
+        "version": "v0.3.2"
+    },
+    {
+        "package": "langchain_openai",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/8c/de/865dedcb252db4725e6e458fb28845038217fdade1df40a9e41b0579c534/langchain_openai-0.2.0-py3-none-any.whl",
+        "version": "v0.2.0"
+    },
+    {
+        "package": "langchain_nvidia_ai_endpoints",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/5f/a0/1796982537830d0cd65d7e56982372ae3a55e3495dbab6792e61b07d6a56/langchain_nvidia_ai_endpoints-0.3.9-py3-none-any.whl",
+        "version": "v0.3.9"
+    },
+    {
+        "package": "simsimd",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/a7/eb/a823b0227b5dc43de8125f502237dd8e844b1e803a74e46aa7c3d0f24f83/simsimd-6.2.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+        "version": "v6.2.1"
+    },
+    {
+        "package": "elastic_transport",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/cf/cd/b71d5bc74cde7fc6fd9b2ff9389890f45d9762cbbbf81dc5e51fd7588c4a/elastic_transport-8.17.1-py3-none-any.whl",
+        "version": "v8.17.1"
+    },
+    {
+        "package": "elasticsearch",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/c0/50/16306f4722ca2fcb64a5875bc1fa9b4d0bcb08c05967f60c23acd4cbb019/elasticsearch-8.17.2-py3-none-any.whl",
+        "version": "v8.17.2"
+    },
+    {
+        "package": "langchain_elasticsearch",
+        "type": "binary",
+        "url": "https://files.pythonhosted.org/packages/32/9d/3bd4d2ac53b5733eb634189bf97e0c2f997d200ad7f2d7587f5d13f0c684/langchain_elasticsearch-0.3.2-py3-none-any.whl",
+        "version": "v0.3.2"
+    }
+]
